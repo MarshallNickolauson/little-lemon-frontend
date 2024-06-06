@@ -1,28 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from '../images/Logo.svg';
+import Nav from './Nav';
 
 function Header() {
-  const headerStyle = {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: '#282c34',
-    minHeight: '2vh',
-    fontSize: '2vmin',
-    color: 'white',
-    padding: '20px'
-  };
+  const [isNavVisible, setIsNavVisible] = useState(false);
 
-  const imgStyle = {
-    height: '10vmin',
-    pointerEvents: 'none',
-    marginRight: '20px'
-  };
+  const toggleNav = () => {
+    setIsNavVisible(!isNavVisible);
+  }
 
   return (
-    <header style={headerStyle}>
-      <img src={logo} style={imgStyle} alt="logo" />
-      <h1>Welcome to My App</h1>
+    <header className="App-header">
+      <img src={logo} className="App-logo" alt="logo" />
+      <button className="Nav-toggle" onClick={toggleNav}>
+        &#9776;
+      </button>
+      <Nav isVisible={isNavVisible} />
     </header>
   );
 }
