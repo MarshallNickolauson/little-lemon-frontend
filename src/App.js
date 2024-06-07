@@ -6,7 +6,7 @@ import Header from './components/Header';
 import HomePage from './components/homepage/HomePage';
 import AboutPage from './components/AboutPage';
 import MenuPage from './components/MenuPage';
-import ReservationPage from './components/ReservationPage';
+import ReservationPage from './components/reservation-page/ReservationPage';
 import OnlineOrderPage from './components/OnlineOrderPage';
 import LoginPage from './components/LoginPage';
 

@@ -10,7 +10,7 @@ function HeroSection() {
           <h1>Little Lemon</h1>
           <h2>Chigaco</h2>
           <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
-          <Link to='/reservation'><button className='Yellow-Button'>Reserve a Table</button></Link>
+          <Link to='/reservations'><button className='Yellow-Button'>Reserve a Table</button></Link>
         </div>
         <div className="Hero-Image-Container">
           <img src={heroImage} alt="Little Lemon Restaurant" className='Hero-Image' />
