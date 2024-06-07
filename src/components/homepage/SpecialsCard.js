@@ -15,10 +15,6 @@ function SpecialsCard({ picture, title, description, price }) {
             </div>
         </div>
     );
-}    const navigate = useNavigate();
-
-    const handleClick = () => {
-        navigate('/menu');
-    };
+}
 
 export default SpecialsCard;

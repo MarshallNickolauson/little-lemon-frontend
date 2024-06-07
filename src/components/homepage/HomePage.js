@@ -8,8 +8,6 @@ function HomePage() {
       <HeroSection />
       <SpecialsSection />
       
-      <h2>Home Page</h2>
-      <p>This is where the main content will go.</p>
     </main>
   );
 }
