@@ -1,3 +1,10 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
 .App-header {
   display: flex;
   align-items: center;
@@ -5,7 +12,6 @@
   background-color: white;
   padding: 10px 20px;
   color: black;
-  /* Change text color to black for better contrast */
 }
 
 .App-logo {
@@ -184,6 +190,82 @@
   font-weight: bold;
   color: #f90;
 }
+
+/* Testimonials Section */
+.Testimonials-Section-Container {
+  background-color: #FBDABB;
+}
+
+.Testimonials-Section {
+  margin: 100px auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  max-width: 55%;
+  align-items: center;
+}
+
+.Testimonials-Section > h1 {
+  text-align: center;
+  color: #1e1e1e;
+  font-size: 3rem;
+  margin-top: 75px;
+}
+
+.Testimonial-Cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 75px;
+}
+
+.Testimonial-Card {
+  display: flex;
+  padding-left: 20px;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  height: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: 0.2s ease-out;
+}
+
+.Testimonial-Card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  transition: 0.2s ease-out;
+}
+
+.Testimonial-Image {
+  height: 240px;
+  width: 180px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.Testimonial-Image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.Testimonial-Card h1 {
+  color: #1e1e1e;
+  font-size: 2rem;
+  
+}
+
+
+
+
+
+
+
 
 footer {
   display: flex;

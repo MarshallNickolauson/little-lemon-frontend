@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function SpecialsCard({ picture, title, description, price }) {
+export default function SpecialsCard({ picture, title, description, price }) {
 
     return (
         <div className="Specials-Card">
@@ -16,5 +16,3 @@ function SpecialsCard({ picture, title, description, price }) {
         </div>
     );
 }
-
-export default SpecialsCard;

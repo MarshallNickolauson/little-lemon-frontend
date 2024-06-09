@@ -10,7 +10,7 @@ function Header() {
   }
 
   return (
-    <header className="App-header">
+    <header className="App-header container">
       <img src={logo} className="App-logo" alt="logo" />
       <button className="Nav-toggle" onClick={toggleNav}>
         &#9776;
