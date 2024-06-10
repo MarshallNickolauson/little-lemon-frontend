@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import logo from '../images/Logo.svg';
 import Nav from './Nav';
 
-function Header() {
+export default function Header() {
   const [isNavVisible, setIsNavVisible] = useState(false);
 
   const toggleNav = () => {
@@ -10,14 +10,12 @@ function Header() {
   }
 
   return (
-    <header className="App-header container">
-      <img src={logo} className="App-logo" alt="logo" />
-      <button className="Nav-toggle" onClick={toggleNav}>
+    <header className="app-header container">
+      <img src={logo} className="app-logo" alt="logo" />
+      <button className="nav-toggle" onClick={toggleNav}>
         &#9776;
       </button>
       <Nav isVisible={isNavVisible} />
     </header>
   );
 }
-
-export default Header;

@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Homepage.css"
 import HeroSection from './HeroSection';
 import SpecialsSection from './SpecialsSection';
 import TestimonialsSection from './TestimonialsSection';
@@ -9,7 +10,6 @@ function HomePage() {
       <HeroSection />
       <SpecialsSection />
       <TestimonialsSection />
-      <div>{true}</div>
     </main>
   );
 }

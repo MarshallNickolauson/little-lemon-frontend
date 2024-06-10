@@ -7,10 +7,10 @@ import testimonial3 from '../../images/testimonial-3.jpg'
 
 export default function TestimonialsSection() {
     return (
-        <div className="Testimonials-Section-Container">
-            <div className="Testimonials-Section">
-                <h1>Here is what's being said.</h1>
-                <div className="Testimonial-Cards">
+        <div className="testimonials-section-container">
+            <div className="testimonials-section">
+                <h1>Here's what's being said.</h1>
+                <div className="testimonial-cards">
                     <TestimonialCard
                         rating="9/10"
                         picture={testimonial1}

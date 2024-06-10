@@ -6,12 +6,12 @@ import greekSaladImage from '../../images/greek salad.jpg';
 import bruscettaImage from '../../images/bruchetta.png';
 import lemonDessertImage from '../../images/lemon dessert.jpg';
 
-function SpecialsSection() {
+export default function SpecialsSection() {
     return (
-        <div className="Specials-Section">
+        <div className="specials-section">
             <div className="specials-header">
                 <h1>This Week's Specials!</h1>
-                <Link to='/menu'><button className='Yellow-Button'>Online Menu</button></Link>
+                <Link to='/menu'><button className='yellow-button'>Online Menu</button></Link>
             </div>
             <div className="specials-cards">
                 <SpecialsCard
@@ -36,5 +36,3 @@ function SpecialsSection() {
         </div>
     );
 }
-
-export default SpecialsSection;
