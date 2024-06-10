@@ -3,15 +3,15 @@ import "./Homepage.css"
 import HeroSection from './HeroSection';
 import SpecialsSection from './SpecialsSection';
 import TestimonialsSection from './TestimonialsSection';
+import AboutSection from './AboutSection';
 
-function HomePage() {
+export default function HomePage() {
   return (
     <main>
       <HeroSection />
       <SpecialsSection />
       <TestimonialsSection />
+      <AboutSection />
     </main>
   );
 }
-
-export default HomePage;
